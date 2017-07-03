@@ -58,7 +58,15 @@
             "Key": "0a6874e2-44a7-4e2a-910c-70a4ff721b5b",
             "Value": {
                 "id": "33baf86b-032a-429c-9d4c-ae6e2c5e4d16",
-                "resourcePath": "scripts\\dashing\\dashing.yy",
+                "resourcePath": "scripts\\src_player_dashing\\src_player_dashing.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "118f2204-28d5-4581-bafc-0d1c36bf9f04",
+            "Value": {
+                "id": "9df0a9a2-2c1d-42bc-b4c3-536c56a5d400",
+                "resourcePath": "scripts\\src_player_idle\\src_player_idle.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -111,11 +119,27 @@
             }
         },
         {
+            "Key": "41024ef2-852b-4470-b0c8-9157d5091c3f",
+            "Value": {
+                "id": "120d4dac-63e8-45da-b960-2309f65eab34",
+                "resourcePath": "views\\41024ef2-852b-4470-b0c8-9157d5091c3f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "4108a955-652b-41a1-aab6-b2b94ed95aae",
             "Value": {
                 "id": "7258c64d-5917-461b-bb45-50a6270dc1c2",
                 "resourcePath": "sprites\\spr_player\\spr_player.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "44fd431d-8fcc-40f7-972b-f2525d9eba64",
+            "Value": {
+                "id": "deddfb4f-eb4a-4a82-9447-a131bc78cac4",
+                "resourcePath": "scripts\\src_exponential_dash\\src_exponential_dash.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -273,7 +297,9 @@
     ],
     "script_order": [
         "34b9155f-7773-440c-b91d-3bb292c74ff7",
-        "0a6874e2-44a7-4e2a-910c-70a4ff721b5b"
+        "0a6874e2-44a7-4e2a-910c-70a4ff721b5b",
+        "44fd431d-8fcc-40f7-972b-f2525d9eba64",
+        "118f2204-28d5-4581-bafc-0d1c36bf9f04"
     ],
     "tutorial": ""
 }
