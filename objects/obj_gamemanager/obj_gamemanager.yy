@@ -1,28 +1,18 @@
 {
-    "id": "072ad448-2bd3-4194-80d2-86c7ad4f2662",
+    "id": "98b3468c-8242-48a7-8890-d6356a28f0f5",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_boss",
+    "name": "obj_gamemanager",
     "eventList": [
         {
-            "id": "8e9c0853-a73a-4116-930c-e0535ae678ed",
+            "id": "6b85ffc3-f061-48a8-9e30-5b0befbd19cb",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "072ad448-2bd3-4194-80d2-86c7ad4f2662"
-        },
-        {
-            "id": "9f95c2d9-8527-4d19-82f4-3240ce70d80c",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "072ad448-2bd3-4194-80d2-86c7ad4f2662"
+            "m_owner": "98b3468c-8242-48a7-8890-d6356a28f0f5"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -41,6 +31,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "74272750-b97a-47c1-ace2-8e4f45116853",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

@@ -4,6 +4,7 @@ dash_end = 0; //world x position
 dashdir = -1; //left or right
 
 move_speed = 10; 
+duration_fight = 10;
 
 enum states{
 	dash,
@@ -11,3 +12,11 @@ enum states{
 }
 
 state = states.idle;
+
+
+enum fighting_states{
+	fight,
+	nofight
+}
+
+fight_state = fighting_states.nofight;

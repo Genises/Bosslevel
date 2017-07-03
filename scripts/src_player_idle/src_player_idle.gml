@@ -22,4 +22,5 @@ if((keyboard_check_released(vk_right) || keyboard_check_released(vk_left))){
 	
 	dash_end = x + roll_distance;
 	state = states.dash;
+	friction = 0;
 }
