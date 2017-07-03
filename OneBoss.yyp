@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "0a6874e2-44a7-4e2a-910c-70a4ff721b5b",
+            "Value": {
+                "id": "33baf86b-032a-429c-9d4c-ae6e2c5e4d16",
+                "resourcePath": "scripts\\dashing\\dashing.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "12b604dd-ce7e-4547-8052-6d86da56c21e",
             "Value": {
                 "id": "f42adffa-4473-4673-ace2-c85273989038",
@@ -264,7 +272,8 @@
         }
     ],
     "script_order": [
-        "34b9155f-7773-440c-b91d-3bb292c74ff7"
+        "34b9155f-7773-440c-b91d-3bb292c74ff7",
+        "0a6874e2-44a7-4e2a-910c-70a4ff721b5b"
     ],
     "tutorial": ""
 }
