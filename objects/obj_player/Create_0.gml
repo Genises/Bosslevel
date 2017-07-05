@@ -4,7 +4,7 @@ dash_end = 0; //world x position
 dashdir = -1; //left or right
 
 move_speed = 10; 
-duration_fight = 10;
+duration_fight = 60;
 
 enum states{
 	dash,
