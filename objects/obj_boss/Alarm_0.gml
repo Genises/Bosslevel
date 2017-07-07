@@ -3,4 +3,5 @@
 
 hit = false;
 reset = true;
+flag = false;
 src_boss_decide();

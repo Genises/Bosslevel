@@ -10,6 +10,7 @@ switch(state)
 	case bossstates.idle: src_boss_idle(); break;
 	case bossstates.run: src_boss_run(); break;
 	case bossstates.defend: src_boss_defend(); break;
+	case bossstates.attack: src_boss_attack(); break;
 }
 
 for(var i = 0; i < array_length_1d(recent_actions); i++){
@@ -20,10 +21,11 @@ for(var i = 0; i < array_length_1d(recent_actions); i++){
 }
 
 
-if(hit && reset && state != bossstates.defend){
+if(hit && reset){
 	state = bossstates.idle;
+	flag = true;
 	reset = false;
-	alarm[0] = 100;
+	alarm[0] = 300;
 	global.level++;
 	show_debug_message("Level Up");
 	if(global.level == global.maxlevel){
@@ -31,6 +33,4 @@ if(hit && reset && state != bossstates.defend){
 	}
 }
 
-if(!flag){
-	src_boss_decide();
-}
+src_boss_decide();
