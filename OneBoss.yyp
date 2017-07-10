@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "3cfa34ea-3d3c-4177-833e-63e642775345",
+            "Value": {
+                "id": "7a4f3c45-5685-4410-bc04-94849062aa47",
+                "resourcePath": "scripts\\src_boss_dash\\src_boss_dash.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3e27791c-1a7e-446e-a811-86b0c5aa28eb",
             "Value": {
                 "id": "c965fd3e-c2cc-4f14-8fd6-1d9815249ec0",
@@ -335,6 +343,14 @@
             }
         },
         {
+            "Key": "a9651e75-c1b5-4983-ac33-5e0cbdc0afa7",
+            "Value": {
+                "id": "34f896c0-c556-47ad-990f-f966501a3d8e",
+                "resourcePath": "views\\a9651e75-c1b5-4983-ac33-5e0cbdc0afa7.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "b5396e20-4f0d-4f6b-adfb-2793d2d0c625",
             "Value": {
                 "id": "f0f9bc97-4eeb-4b1b-9a25-3c339f535948",
@@ -370,7 +386,7 @@
             "Key": "c396382d-c7ce-48e9-a0be-21270155d7a5",
             "Value": {
                 "id": "69301409-0e88-4f07-a243-52f397372d7e",
-                "resourcePath": "scripts\\src_boss_idle\\src_boss_idle.yy",
+                "resourcePath": "scripts\\src_boss_idle_andDamage\\src_boss_idle_andDamage.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -380,6 +396,22 @@
                 "id": "ddffc8d7-73fd-4953-ac96-4f1fe8ff0eb2",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d19c822a-34ff-49e4-9f82-69d23a3ee6c6",
+            "Value": {
+                "id": "f009c2dd-b94c-49d4-ac01-d9039b56def1",
+                "resourcePath": "scripts\\src_boss_move\\src_boss_move.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "dd7f2bcf-4db1-46b2-9a51-df02ea1964fc",
+            "Value": {
+                "id": "7b9dd8a2-389f-4011-8f26-5ec30ae75308",
+                "resourcePath": "scripts\\src_boss_advance\\src_boss_advance.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -422,10 +454,13 @@
         "118f2204-28d5-4581-bafc-0d1c36bf9f04",
         "17e78a7b-5308-44a7-bd9b-eb7d33cce010",
         "c396382d-c7ce-48e9-a0be-21270155d7a5",
-        "0dbb8432-f725-4873-b1d8-0f7a62056ae9",
         "bd30a973-ff02-4bcb-be5d-15c24f120768",
         "91626de7-f797-437d-a59c-33872874805a",
-        "4d0488e8-aa44-40e1-94b0-82d2410a95d5"
+        "4d0488e8-aa44-40e1-94b0-82d2410a95d5",
+        "3cfa34ea-3d3c-4177-833e-63e642775345",
+        "0dbb8432-f725-4873-b1d8-0f7a62056ae9",
+        "d19c822a-34ff-49e4-9f82-69d23a3ee6c6",
+        "dd7f2bcf-4db1-46b2-9a51-df02ea1964fc"
     ],
     "tutorial": ""
 }

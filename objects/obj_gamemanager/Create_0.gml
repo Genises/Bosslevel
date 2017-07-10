@@ -3,3 +3,4 @@
 global.level = 0;
 global.maxlevel = 4;
 
+global.gameover = false;

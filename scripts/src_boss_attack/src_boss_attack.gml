@@ -4,8 +4,6 @@
 
 
 flag = true;
-
-
 	if(x<obj_player.x){
 		sprite_index = spr_enemy_attack_R;
 		facing = true;

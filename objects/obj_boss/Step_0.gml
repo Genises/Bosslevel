@@ -7,10 +7,11 @@
 
 switch(state)
 {
-	case bossstates.idle: src_boss_idle(); break;
-	case bossstates.run: src_boss_run(); break;
+	case bossstates.idle: src_boss_idle_andDamage(); break;
+	case bossstates.move: src_boss_move(); break;
 	case bossstates.defend: src_boss_defend(); break;
 	case bossstates.attack: src_boss_attack(); break;
+	case bossstates.dash: src_boss_dash(); break;	
 }
 
 for(var i = 0; i < array_length_1d(recent_actions); i++){
