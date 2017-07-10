@@ -1,13 +1,20 @@
 ///src_payer_idle()
 
+
+//In case we slide beyond the border in dasing
+x = clamp(x, 0, room_width);
 //left dash
+
+if(hspeed != 0){
+	return;
+}
 if(keyboard_check(vk_left)&&dashdir!=0){
-	roll_distance = roll_distance - 6.66;
+	roll_distance = roll_distance - 15;
 	dashdir = 180;
 }
 //right dash
 if(keyboard_check(vk_right)&&dashdir!=180){
-	roll_distance = roll_distance + 6.66;
+	roll_distance = roll_distance + 15;
 	dashdir = 0;
 }
 
