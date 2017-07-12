@@ -234,7 +234,7 @@
             "Key": "6585827f-e94b-4384-b274-971b5f948398",
             "Value": {
                 "id": "d61602a6-aa73-4100-b138-fc68ced00304",
-                "resourcePath": "objects\\obj_player_dash_distance\\obj_player_dash_distance.yy",
+                "resourcePath": "objects\\obj_ParticleSystem\\obj_ParticleSystem.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -252,6 +252,22 @@
                 "id": "f1b1cd40-c375-4e72-ba0f-97655886b73a",
                 "resourcePath": "sprites\\spr_enemy_attack_R\\spr_enemy_attack_R.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "71eea3d2-9b60-4ab6-bedb-5ad10144ad2d",
+            "Value": {
+                "id": "ba71cf4c-cbcc-4f7c-afd7-895d6a436faf",
+                "resourcePath": "views\\71eea3d2-9b60-4ab6-bedb-5ad10144ad2d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7398ce36-dde1-42c4-9540-5e146eeb12f3",
+            "Value": {
+                "id": "09d0805f-bde3-4e0f-8b15-29be12d50a42",
+                "resourcePath": "scripts\\src_particle_dashline\\src_particle_dashline.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -476,7 +492,8 @@
         "3cfa34ea-3d3c-4177-833e-63e642775345",
         "0dbb8432-f725-4873-b1d8-0f7a62056ae9",
         "d19c822a-34ff-49e4-9f82-69d23a3ee6c6",
-        "dd7f2bcf-4db1-46b2-9a51-df02ea1964fc"
+        "dd7f2bcf-4db1-46b2-9a51-df02ea1964fc",
+        "7398ce36-dde1-42c4-9540-5e146eeb12f3"
     ],
     "tutorial": ""
 }

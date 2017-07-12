@@ -27,22 +27,18 @@ if((keyboard_check_released(vk_right) || keyboard_check_released(vk_left))){
 	friction = 0;
 	state = states.dash;
 	
-	instance_destroy(dashline);
-	dashline = 0;
 }
 
 	//show_debug_message(string(dashline));
 	
 if(roll_distance != 0){
-	if(dashline == 0){
-		dashline = instance_create_layer(x, y, "Instances", obj_player_dash_distance);
+	var xx;
+	if(dashdir == 180){
+		xx = x + roll_distance - (sum_of_move_speed);
+	} else {
+		xx = x + roll_distance + (sum_of_move_speed);
 	}
-	with (dashline)
-		{
-			if(other.dashdir== 180){
-				x = other.x + other.roll_distance - (other.sum_of_move_speed);
-			} else {
-				x = other.x + other.roll_distance + (other.sum_of_move_speed);
-			}
-		}
+	xx = clamp(xx, 0, room_width);
+	
+	src_particle_dashline(xx,y+40);
 }
