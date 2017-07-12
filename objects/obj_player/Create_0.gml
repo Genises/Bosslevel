@@ -7,7 +7,7 @@ move_speed = 15;
 duration_fight = 60;
 
 dashline = 0;
-sum_of_move_speed = (sqr(move_speed)+move_speed)/2;
+sum_of_move_speed = (sqr(move_speed-1)+move_speed-1)/2;
 
 enum states{
 	dash,

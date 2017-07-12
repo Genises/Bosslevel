@@ -39,7 +39,6 @@ if(roll_distance != 0){
 	}
 	with (dashline)
 		{
-			show_debug_message("dashlin" +string(other.x + other.roll_distance ));
 			if(other.dashdir== 180){
 				x = other.x + other.roll_distance - (other.sum_of_move_speed);
 			} else {

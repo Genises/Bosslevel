@@ -5,8 +5,7 @@
 
 
 motion_set(dashdir, src_exponential_dash(abs(dash_end-x),move_speed));
-if(abs(dash_end-x)<=move_speed){
-	show_debug_message("Reached at" + string(x));
+if(abs(dash_end-x)<=0){
 	friction = 1;
 	dashdir = -1;
 	
