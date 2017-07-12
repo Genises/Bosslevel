@@ -6,6 +6,9 @@ dashdir = -1; //left or right
 move_speed = 15; 
 duration_fight = 60;
 
+dashline = 0;
+sum_of_move_speed = (sqr(move_speed)+move_speed)/2;
+
 enum states{
 	dash,
 	idle

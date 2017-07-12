@@ -3,14 +3,12 @@
 //show_debug_message("Rolling now " + string(abs(dash_end-x)));
 //show_debug_message(string(dash_end));
 
-show_debug_message(string(x));
 
 motion_set(dashdir, src_exponential_dash(abs(dash_end-x),move_speed));
 if(abs(dash_end-x)<=move_speed){
-	show_debug_message("Reached");
+	show_debug_message("Reached at" + string(x));
 	friction = 1;
 	dashdir = -1;
-	roll_distance = 0;
 	
 	state = states.idle;
 }
@@ -21,7 +19,7 @@ if(x <= 0 && dash_end <= 0){
 	
 	show_debug_message("Hit Left Wall");;
 	dashdir = -1;
-	roll_distance = 0;
+
 	state = states.idle;
 	return;
 } else if (x >= room_width && dash_end >= room_width ){
@@ -30,7 +28,7 @@ if(x <= 0 && dash_end <= 0){
 	
 	show_debug_message("Hit Right Wall");;
 	dashdir = -1;
-	roll_distance = 0;
+
 	state = states.idle;
 	return;
 }
@@ -41,7 +39,6 @@ if((keyboard_check(vk_left)&&dashdir==0 )|| (keyboard_check(vk_right)&&dashdir==
 	show_debug_message("Stoppp");
 	friction = 0.8;
 	dashdir = -1;
-	roll_distance = 0;
 	
 	state = states.idle;
 	return;
