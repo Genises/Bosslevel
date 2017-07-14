@@ -9,10 +9,16 @@ switch(fight_state)
 {
 	case fighting_states.fight: src_player_attack(); break;
 	case fighting_states.nofight: 
-		if(keyboard_check_pressed(vk_space)){
+		if(keyboard_check_pressed(vk_space) && !attackedAlready){
 			//object attack is currently created at every frame
+			attackedAlready = true;
 			fight_state = fighting_states.fight;
 			alarm[0] = duration_fight;
 		}
 	break;
+}
+
+if(last_state != state){
+	last_state = state;
+	attackedAlready = false;
 }

@@ -9,7 +9,8 @@
         "91626de7-f797-437d-a59c-33872874805a",
         "4d0488e8-aa44-40e1-94b0-82d2410a95d5",
         "3cfa34ea-3d3c-4177-833e-63e642775345",
-        "a9651e75-c1b5-4983-ac33-5e0cbdc0afa7"
+        "a9651e75-c1b5-4983-ac33-5e0cbdc0afa7",
+        "cb0ab0b2-54c9-4420-b28b-1b391003fd85"
     ],
     "filterType": "GMScript",
     "folderName": "boss",
