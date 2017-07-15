@@ -8,9 +8,9 @@
 switch(state)
 {
 	case bossstates.idle: src_boss_idle_andDamage(); break;
-	case bossstates.move: src_boss_move(); break;
+	case bossstates.move: src_boss_decide_move(); break;
 	case bossstates.defend: src_boss_defend(); break;
-	case bossstates.attack: src_boss_attack(); break;
+	case bossstates.attack: src_boss_decide_attack(); break;
 	case bossstates.dash: src_boss_dash(); break;	
 }
 

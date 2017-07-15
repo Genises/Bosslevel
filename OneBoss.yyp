@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "3e683a0e-a32d-409b-af84-ec64b4f434ae",
+            "Value": {
+                "id": "73d04ea3-f1f1-4685-9556-7a408357bd06",
+                "resourcePath": "scripts\\src_boss_easycombo\\src_boss_easycombo.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "41024ef2-852b-4470-b0c8-9157d5091c3f",
             "Value": {
                 "id": "120d4dac-63e8-45da-b960-2309f65eab34",
@@ -319,6 +327,14 @@
             }
         },
         {
+            "Key": "8372c6dd-ae3b-4c8d-8573-8d165a86d1a3",
+            "Value": {
+                "id": "5f206183-12c2-408c-9277-d721250544af",
+                "resourcePath": "scripts\\src_boss_decide_attack\\src_boss_decide_attack.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8427047f-9ef8-4c77-89f3-9c20623d07b6",
             "Value": {
                 "id": "d2758dce-33ee-43e3-9ecc-a75f0c507dbb",
@@ -442,7 +458,7 @@
             "Key": "d19c822a-34ff-49e4-9f82-69d23a3ee6c6",
             "Value": {
                 "id": "f009c2dd-b94c-49d4-ac01-d9039b56def1",
-                "resourcePath": "scripts\\src_boss_move\\src_boss_move.yy",
+                "resourcePath": "scripts\\src_boss_decide_move\\src_boss_decide_move.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -493,14 +509,16 @@
         "44fd431d-8fcc-40f7-972b-f2525d9eba64",
         "118f2204-28d5-4581-bafc-0d1c36bf9f04",
         "17e78a7b-5308-44a7-bd9b-eb7d33cce010",
+        "91626de7-f797-437d-a59c-33872874805a",
         "c396382d-c7ce-48e9-a0be-21270155d7a5",
         "bd30a973-ff02-4bcb-be5d-15c24f120768",
-        "91626de7-f797-437d-a59c-33872874805a",
-        "4d0488e8-aa44-40e1-94b0-82d2410a95d5",
         "3cfa34ea-3d3c-4177-833e-63e642775345",
         "d19c822a-34ff-49e4-9f82-69d23a3ee6c6",
         "0dbb8432-f725-4873-b1d8-0f7a62056ae9",
         "dd7f2bcf-4db1-46b2-9a51-df02ea1964fc",
+        "8372c6dd-ae3b-4c8d-8573-8d165a86d1a3",
+        "4d0488e8-aa44-40e1-94b0-82d2410a95d5",
+        "3e683a0e-a32d-409b-af84-ec64b4f434ae",
         "7398ce36-dde1-42c4-9540-5e146eeb12f3"
     ],
     "tutorial": ""

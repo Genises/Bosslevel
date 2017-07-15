@@ -11,6 +11,7 @@ doDamage = false;
 random_position_change = 100;
 
 flag = false;
+attackflag = false;
 
 
 //functionArray = [src_boss_0, src_boss_1, src_boss_2];
@@ -31,6 +32,13 @@ enum bossmovestates{
 	advance
 }
 movestate = bossmovestates.run;
+
+enum bossattackstates{
+	attack,
+	easycombo
+}
+attackstate = bossattackstates.attack;
+
 
 //0 is block, 1 is attack, 2 is dash
 recent_actions = [0,0,0,0,0];
