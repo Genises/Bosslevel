@@ -1,7 +1,12 @@
 
 if(!attackflag){
+	//closeCombat
 	if(abs(obj_player.x - x) < 200){
-		bossattackstates = bossattackstates.attack;
+		switch(random(0)){
+			case 0:
+				bossattackstates = bossattackstates.attack;
+				return;
+		}
 	} else {
 		return;
 	}
