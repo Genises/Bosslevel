@@ -25,7 +25,7 @@ if(global.level >= 2 && obj_player.fight_state == fighting_states.fight && recen
 }
 
 //attack
-if(random(5) <= 2 && recent_actions[1] = 0){
+if(global.level >= 3 && random(5) <= 2 && recent_actions[1] = 0){
 		recent_actions[1] = 300;
 		state = bossstates.attack;
 		return;

@@ -3,8 +3,6 @@
 
 //show_debug_message("Ai State: " + string(state));
 //show_debug_message("level: " + string(global.level));
-
-
 switch(state)
 {
 	case bossstates.idle: src_boss_idle_andDamage(); break;
