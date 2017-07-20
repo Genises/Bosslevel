@@ -22,7 +22,7 @@ if(surface_exists(surface)){
 //draw_surface(application_surface,0,0);
 
 
-shader_set(Schockwave);
+shader_set(Schockwave2);
 
 shader_set_uniform_f(u_resolution,room_width,room_height);
 shader_set_uniform_f(u_seconds,seconds);

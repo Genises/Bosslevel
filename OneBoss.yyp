@@ -447,6 +447,14 @@
             }
         },
         {
+            "Key": "bd9cbdf0-f2de-47c8-8d17-b106e8931cc2",
+            "Value": {
+                "id": "fafb5390-e8e4-4974-8eff-8a2c9ad95e92",
+                "resourcePath": "shaders\\Schockwave2\\Schockwave2.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "bfde9b2d-0782-4161-bba2-3cf6560b03ca",
             "Value": {
                 "id": "97b58530-1083-4b04-91ae-9c57ba505df7",

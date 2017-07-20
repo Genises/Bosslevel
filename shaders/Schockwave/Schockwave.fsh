@@ -4,7 +4,6 @@
 
 varying vec2 v_vTexcoord;
 varying vec4 v_vColour;
-
 varying vec2 fragCoord;
 
 uniform vec2    iResolution;           // viewport resolution (in pixels)
