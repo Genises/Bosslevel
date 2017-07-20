@@ -20,7 +20,7 @@ void main()
     float offset = (iGlobalTime- floor(iGlobalTime))/iGlobalTime;
 	float CurrentTime = (iGlobalTime)*(offset);    
     
-	vec4 WaveParams = vec4(10.0, 0.5, 0.1 ,20.0); 
+	vec4 WaveParams = vec4(5.0, 1, 0.15 ,60.0); 
     
     float ratio = iResolution.y/iResolution.x;
     
