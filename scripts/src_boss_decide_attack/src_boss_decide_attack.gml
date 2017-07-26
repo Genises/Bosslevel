@@ -1,4 +1,4 @@
-if(!attackflag){
+if(!defendflag){
 	//closeCombat
 	if(abs(obj_player.x - x) < 200){
 		switch(random(0)){

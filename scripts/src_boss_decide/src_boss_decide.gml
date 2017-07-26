@@ -13,7 +13,7 @@ if(global.level >= 1){
 //show_debug_message(string(obj_player.fight_state)); 
 
 //defend
-if(global.level >= 2 && obj_player.fight_state == fighting_states.fight && recent_actions[0] = 0 && abs(obj_player.x - x) < 200){
+if(global.level >= 2 && obj_player.fight_state == fighting_states.fight && recent_actions[0] = 0){
 	recent_actions[0] = 300;
 	if(random(3) <= 2){
 		show_debug_message("Blocking");
@@ -29,13 +29,4 @@ if(global.level >= 3 && random(5) <= 2 && recent_actions[1] = 0){
 		recent_actions[1] = 300;
 		state = bossstates.attack;
 		return;
-}
-
-//dash away
-if(global.level >= 5 &&  random(20) <= 5 && obj_player.fight_state == fighting_states.fight && recent_actions[2] = 0){
-	if(abs(obj_player.x - x) < 100){
-		recent_actions[2] = 100;
-		state = bossstates.dash;
-		return;
-	}
 }

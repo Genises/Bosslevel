@@ -1,4 +1,4 @@
-///src_boss_defend()
+///src_boss_block()
 //state 3
 //drittel Chance den Schlag zu blocken, alarm 1 leuet block ein, alarm 2 endet das blocken
 
