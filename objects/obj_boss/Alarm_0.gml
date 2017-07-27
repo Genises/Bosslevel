@@ -5,4 +5,3 @@ hit = false;
 reset = true;
 flag = false;
 sprite_index = spr_enemy;
-src_boss_decide();

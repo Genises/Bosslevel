@@ -30,6 +30,6 @@ void main()
 		    texCoord = uv + (diffUV * diffTime);
 		    
 	 } 
-	 vec4 original = texture2D( tex_Background, texCoord);
+	 vec4 original = texture2D(tex_Background, texCoord);
 	 gl_FragColor = original; 
 }

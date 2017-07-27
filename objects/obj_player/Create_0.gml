@@ -10,6 +10,8 @@ attackedAlready = false;
 dashline = 0;
 sum_of_move_speed = (sqr(move_speed-1)+move_speed-1)/2;
 
+alive = true;
+
 enum states{
 	dash,
 	idle

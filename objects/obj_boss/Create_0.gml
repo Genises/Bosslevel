@@ -8,6 +8,8 @@ blocking = false;
 attacking = false;
 doDamage = false;
 
+movement_speed = 1;
+
 random_position_change = 100;
 
 //flags to stop decision making

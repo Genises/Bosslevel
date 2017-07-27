@@ -11,5 +11,8 @@ if(doDamage && !global.gameover){
 		
 		instance_create_layer(x,y,"Particle_Layer",obj_shader_schockwave);
 		obj_gamemanager.alarm[0] = 60;
+		
+		alive = false;
+		src_slowmo(true,4);
 	}
 }

@@ -25,11 +25,16 @@ if(hit && reset){
 	flag = true;
 	reset = false;
 	alarm[0] = 300;
+	speed = 0;
 	global.level++;
 	show_debug_message("Level Up");
 	if(global.level == global.maxlevel){
 		instance_destroy();
 	}
+	
+	for(var i = 1; i <= array_length_1d(recent_actions); i++){
+		alarm_set(i,-1);
+	} 
 }
 
 src_boss_decide();

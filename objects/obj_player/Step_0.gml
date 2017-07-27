@@ -1,3 +1,7 @@
+if(!alive){
+	return;
+}
+
 switch(state)
 {
 	case states.idle: src_player_idle(); break;
