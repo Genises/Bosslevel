@@ -10,7 +10,7 @@ if(x < obj_player.x && x >= sprite_width){
 
 //show_debug_message(string(x));
 
-if((random(random_position_change)<1 || fury>=70)){
+if(random(random_position_change)<1 || fury>=70){
 	movestate = bossmovestates.advance;
 	show_debug_message("AdvancePlayer")
 }

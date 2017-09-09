@@ -4,7 +4,7 @@
 //show_debug_message(string(dash_end));
 
 
-motion_set(dashdir, src_exponential_dash(abs(dash_end-x),move_speed));
+motion_set(dashdir, move_speed);
 if(abs(dash_end-x)<=0){
 	friction = 1;
 	dashdir = -1;
@@ -13,7 +13,6 @@ if(abs(dash_end-x)<=0){
 }
 
 if(x <= 0 && dash_end <= 0){
-	x = 0;
 	hspeed = 0;
 	
 	show_debug_message("Hit Left Wall");;
@@ -22,7 +21,6 @@ if(x <= 0 && dash_end <= 0){
 	state = states.idle;
 	return;
 } else if (x >= room_width && dash_end >= room_width ){
-	x = room_width;
 	hspeed = 0;
 	
 	show_debug_message("Hit Right Wall");;
@@ -34,11 +32,19 @@ if(x <= 0 && dash_end <= 0){
 
 
 //aboard dash
-if((keyboard_check(vk_left)&&dashdir==0 )|| (keyboard_check(vk_right)&&dashdir==180)){
+//make a fast tap to dash back again
+if((keyboard_check_released(vk_left)&&dashdir==0 )|| (keyboard_check_released(vk_right)&&dashdir==180)){
 	show_debug_message("Stoppp");
-	friction = 0.8;
-	dashdir = -1;
 	
+	if(dashdir == 0){
+		motion_set(180, move_speed);
+	} else {
+		motion_set(0, move_speed);
+	}
+
+	friction = 1;
+	dashdir = -1;	
 	state = states.idle;
+
 	return;
 } 

@@ -3,9 +3,13 @@
 
 //show_debug_message("Ai State: " + string(state));
 //show_debug_message("level: " + string(global.level));
+
+show_debug_message(string(attacking));
+
+
 switch(state)
 {
-	case bossstates.idle: src_boss_idle_andDamage(); break;
+	case bossstates.idle: src_boss_idle(); break;
 	case bossstates.move: src_boss_decide_move(); break;
 	case bossstates.defend: src_boss_decide_defend(); break;
 	case bossstates.attack: src_boss_decide_attack(); break;

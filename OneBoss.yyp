@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "083e6fd0-3392-40ed-82aa-5c3fec590619",
+            "Value": {
+                "id": "ed0831cd-3bfa-418c-8544-e2b8d9674463",
+                "resourcePath": "scripts\\src_boss_jumpattack\\src_boss_jumpattack.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0a6874e2-44a7-4e2a-910c-70a4ff721b5b",
             "Value": {
                 "id": "33baf86b-032a-429c-9d4c-ae6e2c5e4d16",
@@ -295,6 +303,14 @@
             }
         },
         {
+            "Key": "6feed15d-c124-4941-b120-3fc109bd9a0d",
+            "Value": {
+                "id": "a6340be3-7914-4709-88a0-0440f84cbedb",
+                "resourcePath": "paths\\pat_boss_jump_attack\\pat_boss_jump_attack.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "707ca180-a4e5-4c3a-acee-9bc682477fae",
             "Value": {
                 "id": "f1b1cd40-c375-4e72-ba0f-97655886b73a",
@@ -514,7 +530,7 @@
             "Key": "c396382d-c7ce-48e9-a0be-21270155d7a5",
             "Value": {
                 "id": "69301409-0e88-4f07-a243-52f397372d7e",
-                "resourcePath": "scripts\\src_boss_idle_andDamage\\src_boss_idle_andDamage.yy",
+                "resourcePath": "scripts\\src_boss_idle\\src_boss_idle.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -624,13 +640,14 @@
         "8372c6dd-ae3b-4c8d-8573-8d165a86d1a3",
         "4d0488e8-aa44-40e1-94b0-82d2410a95d5",
         "3e683a0e-a32d-409b-af84-ec64b4f434ae",
+        "083e6fd0-3392-40ed-82aa-5c3fec590619",
         "a49b2d82-289f-4d9d-89c4-622701a3ee64",
         "bd30a973-ff02-4bcb-be5d-15c24f120768",
         "3cfa34ea-3d3c-4177-833e-63e642775345",
         "0a6874e2-44a7-4e2a-910c-70a4ff721b5b",
-        "44fd431d-8fcc-40f7-972b-f2525d9eba64",
         "118f2204-28d5-4581-bafc-0d1c36bf9f04",
         "17e78a7b-5308-44a7-bd9b-eb7d33cce010",
+        "44fd431d-8fcc-40f7-972b-f2525d9eba64",
         "7398ce36-dde1-42c4-9540-5e146eeb12f3",
         "c62e2f9a-906f-4011-8a7f-97edadf6ee13",
         "34b9155f-7773-440c-b91d-3bb292c74ff7"

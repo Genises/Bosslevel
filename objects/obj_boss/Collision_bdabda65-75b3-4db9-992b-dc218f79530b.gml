@@ -1,8 +1,8 @@
-///src_boss_idle()
-//state 0 && when player gets Damage
+/// @description Insert description here
+// You can write your code in this editor
 
-if(doDamage && !global.gameover){
-	with(instance_place(x,y,obj_player)){
+if(!global.gameover && !obj_player.fighting && !hit && attacking){
+	with(obj_player){
 		show_debug_message("PlayerHit");
 		global.gameover = true;
 		
@@ -14,5 +14,11 @@ if(doDamage && !global.gameover){
 		
 		alive = false;
 		src_slowmo(true,4);
+		
+		if(x<other.x){
+			hspeed = -5;
+		}else{
+			hspeed = 5;
+		}
 	}
 }

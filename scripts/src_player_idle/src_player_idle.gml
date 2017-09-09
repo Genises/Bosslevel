@@ -1,13 +1,10 @@
 ///src_payer_idle()
 
-
-//In case we slide beyond the border in dasing
-x = clamp(x, 0, room_width);
 //left dash
-
 if(hspeed != 0){
 	return;
 }
+
 if(keyboard_check(vk_left)&&dashdir!=0 && roll_distance > -max_roll_distance){
 	roll_distance = roll_distance - 15;
 	dashdir = 180;
@@ -29,8 +26,9 @@ if((keyboard_check_released(vk_right) || keyboard_check_released(vk_left))){
 	
 }
 
-	//show_debug_message(string(dashline));
+//show_debug_message(string(dashline));
 	
+//For dashline calculation	
 if(roll_distance != 0){
 	var xx;
 	if(dashdir == 180){
