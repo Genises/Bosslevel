@@ -17,6 +17,7 @@ switch(fight_state)
 			//object attack is currently created at every frame
 			attackedAlready = true;
 			fight_state = fighting_states.fight;
+			fighting = true;
 			alarm[0] = duration_fight;
 		}
 	break;

@@ -1,4 +1,4 @@
-/// @description Defend reset
+/// @description Defend and reset
 // You can write your code in this editor
 
 

@@ -1,9 +1,9 @@
 if(!defendflag){
 	//closeCombat
 	if(abs(obj_player.x - x) < 200){
-		defendstate = bossdefendstates.dash;
-	}	else {
 		defendstate = bossdefendstates.block;
+	}	else {
+		defendstate = bossdefendstates.dash;
 	}
 }
 

@@ -6,7 +6,6 @@ blockduration = 60;
 blocking = false;
 
 attacking = false;
-doDamage = false;
 
 movement_speed = 1;
 
